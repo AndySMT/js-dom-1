@@ -5,11 +5,11 @@ h1 {
   display: flex;
   text-align: center;
   justify-content: center;
-  width: 100vw;
+  width: 97vw;
   color: yellowgreen;
 }
 .container {
-  width: 100vw;
+  width: 98vw;
   height: 70vh;
   display: flex;
   text-align: center;
@@ -26,6 +26,12 @@ h1 {
   position: relative;
   top: 50%;
   border-radius: 30px;
+}
+.light {
+  background-color: rgb(235, 235, 118);
+}
+.light #image {
+  transform: rotateY(-180deg);
 }
 
 button {
